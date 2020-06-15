@@ -34,6 +34,8 @@ async function collectLinks(url) {
         '?C=M;O=A',
         '?C=S;O=A',
         '?C=D;O=A',
+        '?C=N;O=A',
+        '/wp-content/',
         '/',
         '../',
         ' ',
