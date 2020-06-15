@@ -51,7 +51,7 @@ async function collectLinks(url) {
     $('a').each(function(i, element) {
         let ref = $(element).attr('href');
 
-        if (invalidUrls.indexOf(ref) === -1) {
+        if (invalidUrls.indexOf(ref) === -1 && !ref.includes('/wp-content/uploads')) {
             urls.push($(element).attr('href'));
         }
     });
