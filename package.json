@@ -1,0 +1,28 @@
+{
+  "name": "stealth-blind",
+  "version": "1.0.0",
+  "description": "download content data from indexes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoshmendes/stealth-blind.git"
+  },
+  "keywords": [
+    "script"
+  ],
+  "author": "marcos.mendes@live.com",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/marcoshmendes/stealth-blind/issues"
+  },
+  "homepage": "https://github.com/marcoshmendes/stealth-blind#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "progress": "^2.0.3",
+    "readline-sync": "^1.4.10"
+  }
+}
