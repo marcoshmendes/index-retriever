@@ -6,6 +6,13 @@ Index Retriever is intended for legal and ethical use only. It is not designed, 
 
 Index Retriever is an open-source application designed to retrieve data from servers configured to allow Directory Listing. This project is a command line tool, developed in Node.js, enables users to download index files/directories.
 
+### Example:
+
+![image](https://github.com/marcoshmendes/index-retriever/assets/17493368/31401023-1cf0-4a4c-bdb4-bbe7d9908861)
+
+
+
+
 
 ## Requirements
 
