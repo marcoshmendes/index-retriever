@@ -4,7 +4,7 @@
   "description": "download content data from indexes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "script"
   ],
   "author": "marcos.mendes@live.com",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/marcoshmendes/stealth-blind/issues"
   },
