@@ -1,14 +1,14 @@
 {
-  "name": "stealth-blind",
+  "name": "index-retriever",
   "version": "1.0.0",
-  "description": "download content data from indexes",
+  "description": "Index Retriever is an open-source application designed to retrieve data from servers configured to allow Directory Listing. This project is a command line tool, developed in Node.js, enables users to download index files/directories.",
   "main": "index.js",
   "scripts": {
     "start": "node index"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcoshmendes/stealth-blind.git"
+    "url": "git+https://github.com/marcoshmendes/index-retriever"
   },
   "keywords": [
     "script"
@@ -16,9 +16,9 @@
   "author": "marcos.mendes@live.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/marcoshmendes/stealth-blind/issues"
+    "url": "https://github.com/marcoshmendes/index-retriever/issues"
   },
-  "homepage": "https://github.com/marcoshmendes/stealth-blind#readme",
+  "homepage": "https://github.com/marcoshmendes/index-retriever#readme",
   "dependencies": {
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
