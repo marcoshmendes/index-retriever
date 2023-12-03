@@ -10,8 +10,7 @@ Index Retriever is an open-source application designed to retrieve data from ser
 
 ![image](https://github.com/marcoshmendes/index-retriever/assets/17493368/31401023-1cf0-4a4c-bdb4-bbe7d9908861)
 
-
-
+![Captura de tela 2023-12-03 131918](https://github.com/marcoshmendes/index-retriever/assets/17493368/689d31b4-45a2-4c99-b0c5-8791747539a9)
 
 
 ## Requirements
