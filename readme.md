@@ -15,7 +15,7 @@ Index Retriever is an open-source application designed to retrieve data from ser
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/) installed
+- [Node.js](https://nodejs.org/) 20.18.1 or newer
 
 ## Installation
 
@@ -37,14 +37,16 @@ Index Retriever is an open-source application designed to retrieve data from ser
 ## Usage
 
 ```bash
-npm start
+node index https://example.com/files/
 ```
 
-or
+or run `npm start` (or `node index`) without arguments and type the URL when prompted.
 
-```bash
-node index
-```
+Files are saved to a new `<host>-<timestamp>` folder in the current directory, mirroring the remote structure:
+
+- Subdirectories are downloaded recursively (up to 10 levels deep); only links below the listed directory are followed, so parent, sort and external links are ignored.
+- Files are saved byte for byte as served (no transparent decompression).
+- A failed file does not stop the run; failures are listed at the end and the process exits with code 1.
 
 ## Contribution
 
