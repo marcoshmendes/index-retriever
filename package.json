@@ -19,9 +19,12 @@
     "url": "https://github.com/marcoshmendes/index-retriever/issues"
   },
   "homepage": "https://github.com/marcoshmendes/index-retriever#readme",
+  "engines": {
+    "node": ">=20.18.1"
+  },
   "dependencies": {
-    "axios": "^0.19.2",
-    "cheerio": "^1.0.0-rc.3",
+    "axios": "^1.20.0",
+    "cheerio": "^1.2.0",
     "progress": "^2.0.3",
     "readline-sync": "^1.4.10"
   }
